@@ -1,0 +1,142 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-header{
+    position: fixed;
+    left:0%;
+    background-image: url('Lofi-wall.jpg');
+    height: 100%;
+    top:0%;
+    width: 25%;
+}
+.main-header img{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 40%;
+    border-radius: 50%;
+    border: 3px solid lightblue;
+    transition: 0.5s;
+}
+.main-header img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.main-header .myName{
+    width: 40%;
+    height: 40%;
+    margin-left: 35%;
+    color: white;
+    transition: 0.5s;
+    border-bottom: 0px;
+}
+.main-content{
+    margin-left: 26%;
+}
+h1,h2{
+    border-bottom: solid 1px grey;
+    width: 95%;
+    transition: 0.5s;
+    font-weight: 1500;
+}
+h1:hover,h2:hover{
+    width: 100%;
+}
+.main-content-musics{
+    box-sizing: border-box;
+}
+.main-content-musics .lakey{
+    position: absolute;
+    transition: 0.5s;
+    z-index: 1;
+    background-color: white;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-content-musics .lakey:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.main-content-musics .main-content-musics-div .playone{
+    height: 500px;
+    margin-left: -14%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.main-content-musics .main-content-musics-div .music-name{
+    margin-left: 0%;
+    box-sizing: border-box;
+}
+.playing{
+    position: absolute;
+    left: 46.8%;
+    top: 121%;
+    height: 10%;
+    width: 8%;
+    z-index: 0;
+    display: none;
+    transition: 2s;
+}
+.main-content-musics .burbank{
+    position: absolute;
+    transition: 0.5s;
+    z-index: 1;
+    right: 11%;
+    top: 73.6%;
+    height: 504px;
+    padding:0px;
+    margin: -15px;
+    border: none;
+    background-color: white;
+    box-sizing: border-box;
+}
+.burbankimg{
+    height: 500px;
+    box-sizing: border-box;
+}
+.main-content-musics .burbank:hover{
+    opacity: 0.5;
+    box-sizing: border-box;
+
+}
+.playtwo{
+    position: absolute;
+    height: 500px;
+    left: 54%;
+    top: 72%;
+    box-sizing: border-box;
+}
+.music-name2{
+    margin-left: 51.6%;
+    margin-top: -2.7%;
+    box-sizing: border-box;
+}
+.playing2{
+    position: absolute;
+    top: 123%;
+    left: 85%;
+    height: 10%;
+    width: 8%;
+    z-index: 0;
+    display: none;
+    box-sizing: border-box;
+}
+.pic-galery{
+}
+.img1{
+    position: absolute;
+    z-index: 1;
+}
+.img2{
+    position: absolute;
+    right: 9%;
+    height: 900px;
+    z-index: 0;
+}
+.img3{
+    position: absolute;
+    top: 198.5%;
+}
