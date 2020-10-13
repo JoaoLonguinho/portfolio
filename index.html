@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="me.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <img src="me.jpg" >
+            <h1 class="myName">João Pedro Caramante Longuinho</h1>
+        </header>
+            <main class="main-content">
+                <h2>Sobre mim:</h2>
+                <p>
+                    Bom, pra quem já me conhece, já sabe que gosto muito de falar sobre mim (acho que fica meio óbvio, já que estou criando um site próprio para isso haha).
+                    Para quem não me conhece, sou um jovem de 22 anos, estudante cujo objetivo é iniciar a carreira em programação front-end, então, aqui estou eu montando um website com minha imagem.
+                    Sou uma pessoa de bem com a vida, fácil de fazer amizade e extremamente focado em minhas metas.
+                </p>
+                <h3>
+                    Caracteristicas pessoais:
+                </h3>
+                <h4>
+                    Como isto não se trata apenas de uma pagina profissional, e sim sobre mim, aqui estão algumas coisas que eu AMO
+                </h4>
+                <li>
+                    Óbviamente programar (não é atoa que quero tanto trabalhar com isso)
+                </li>
+                <li>
+                    Apreciar o meu estilo de músical favorito (lo-fi), que é algo que torna tudo um pouco mais espetacular e apaixonante
+                </li>
+                <li>
+                    Aproveitar meu tempo livre jogando alguns jogos online com a pessoa que amo e com meus amigos
+                </li>
+                <li>
+                    Sair, principalmente quando se trava de conhecer coisas novas
+                </li>
+                <li>
+                    Conversar, pois nada alivia mais do que um bom papo com alguém que gosto
+                </li>
+                <h3>
+                    Caracteristicas Profissionais:
+                </h3>
+                <li>
+                    Conhecimento em HTML5, CSS3 e JS
+                </li>
+                <li>
+                    Conhecimento e experiência em SQL Server, no que se sujeita a elaboração de scripts, principalmente de revisão e reversão, mantendo assim um backup caso mal funcionamento dentro dos ambientes
+                </li>
+                <li>
+                    Experiência em gerenciamento de branchs, código fonte e servidores
+                </li>
+                <li>
+                    Controle de versionamento, hotfix e deploys
+                </li>
+                <li>
+                    Experiência com as ferramentas VS(2013, 2015, 2017 e 2019), SQL Server 2008.
+                </li>
+                <li>
+                    Ambicioso, organizado, motivado e próativo.
+                </li>
+                <h1>
+                    Agora para conhecer um pouco mais afundo, abaixo existem outras coisas voltadas a tudo o que foi mencionado
+                </h1>
+                <h3>
+                    Minha música favorita, que escuto principalmente quando estou bem:
+                </h3>
+                <div class="main-content-musics">
+                    <div class="main-content-musics-div">
+                        <button class="lakey" id="playMone"><img src="lakey.jpg"  id="playhere"></button>
+                        <img src="play.png" class="playone">
+                        <h3 class="music-name" >Lakey Inspired - Overjoyed </h3>
+                        <img src="playing.gif" id="playing" class="playing">
+                        <audio id="lakeyinsp" src="LAKEY INSPIRED - Overjoyed.mp3"></audio>
+                    </div>
+                <!--<div>
+                        <button class="burbank"><img src="burbank.PNG" class="burbankimg"></button>
+                        <img src="play.png" class="playtwo" id="musicplay2">
+                        <h3 class="music-name2">Burbank - Sorry I Like You</h3>
+                        <img src="playing.gif" class="playing2">
+                        <audio src="burbank - sorry I like you.mp3"></audio>
+                    </div>
+                -->
+                </div>
+                <h2>
+                    Algumas fotos minhas:
+                </h2>
+                <div class="pic-galery"> 
+                    <div>
+                        <img class="img1" src="me.jpg">
+                    </div>
+                    <div>
+                        <img class="img2" src="me2.PNG">
+                    </div>
+                    <div>
+                        <img class="img3" src="me3.PNG">
+                    </div>
+                </div>
+            </main>
+            <script>
+                const button = document.querySelector('button')
+                button.addEventListener('click', function(){
+                    document.getElementById("playing").style.display = "inline";
+                    const audio = document.querySelector('audio')
+                    audio.play()
+                })
+            </script>
+    </body>
+</html>
